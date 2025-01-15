@@ -1,0 +1,61 @@
+# **Node Modules**
+/node_modules
+
+# **Logs**
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# **Environment Variables**
+.env*
+!.env.example  # <-- This line ensures .env.example is not ignored
+
+# **Dependency Directories**
+.yarn/
+.pnpm-debug.log
+
+# **Build Output**
+dist/
+build/
+.tmp/
+.cache/
+
+# **OS-specific Files**
+.DS_Store
+Thumbs.db
+
+# **IDE and Editor Files**
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# **Coverage Reports**
+coverage/
+
+# **Optional Lock Files**
+package-lock.json
+yarn.lock
+
+# **Temporary Files**
+*.tmp
+*.temp
+
+# **Database Files (if applicable)**
+*.sqlite
+*.sqlite3
+
+# **Secrets or Keys**
+private.pem
+public.pem
+
+# **PostgreSQL Specific**
+pgdata/
+
+# **Test Coverage Output**
+.nyc_output/
+
+# **Optional: Ignore All Hidden Files**
+.*
+!/.gitignore
