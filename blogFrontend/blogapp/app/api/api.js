@@ -135,7 +135,8 @@ export async function updatePost(id, title, description) {
        {
         "title":title,
         "description": description,
-         "date": new Date().toISOString()
+         "date": new Date().toISOString(),
+          "date": new Date().toISOString()
        },
       {
         headers: {
