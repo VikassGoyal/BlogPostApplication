@@ -134,7 +134,8 @@ export async function updatePost(id, title, description) {
       `http://localhost:3000/Posts/${id}`, 
        {
         "title":title,
-        "description": description
+        "description": description,
+         "date": new Date().toISOString()
        },
       {
         headers: {
