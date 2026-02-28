@@ -91,6 +91,7 @@ export default function MainPage() {
             }}
           >
             <FaSignOutAlt /> 
+             <FaSignOutAlt /> 
           </button>
         </div>
       </div>
