@@ -29,6 +29,8 @@ export default function SignUp() {
       localStorage.setItem('userId', userId);
 
       console.log('User ID:', userId);
+
+      console.log('User ID:', userId);
        }
       router.replace("/main");
     } 
